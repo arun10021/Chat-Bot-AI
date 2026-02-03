@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "544594648572",
+    "project_id": "chat-bot-ai-6050c",
+    "storage_bucket": "chat-bot-ai-6050c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544594648572:android:3f5b6f7a48324d72042679",
+        "android_client_info": {
+          "package_name": "com.example.chat_bot_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2KlMm5mx7Q7aKEmDTQFr1uGL6TFHvd2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

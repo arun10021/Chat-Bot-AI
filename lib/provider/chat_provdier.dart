@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../model/message_model.dart';
-import '../service/open_AI_service.dart';
+import '../service/gemini_AI_service.dart';
 import '../service/storage_service.dart';
 
 class ChatProvider extends ChangeNotifier {

@@ -2,9 +2,6 @@
 
 > A clean and modern AI chat interface built with Flutter ✨
 
-## 🚀 Live Demo
-
-**[Try the App Here! 🔗](https://chat-bot-ai-e10b1.web.app/)**
 
 ## 📥 Download
 
@@ -15,20 +12,17 @@
 🎨 **Modern UI** - Clean and minimal chat interface  
 ⚡ **Real-time Streaming** - Live AI response streaming  
 💬 **Smart Bubbles** - Clear user and AI message distinction  
-📱 **Responsive** - Works seamlessly on mobile and web  
+📱 **Responsive** - Works seamlessly on mobile
 🔄 **Auto-scroll** - Smooth scrolling to latest messages  
-🎯 **Scalable** - Production-ready architecture  
 
 ## 🛠️ Built With
 
 - 📱 Flutter
-- 🔥 Firebase
 - 🤖 AI Integration
 
 ## 🎯 Perfect For
 
 ✅ Real-world AI chat applications  
-✅ Customer support bots  
 ✅ Personal AI assistants  
 ✅ Educational chatbots  
 

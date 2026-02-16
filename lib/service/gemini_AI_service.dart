@@ -1,18 +1,27 @@
 import 'dart:convert';
+import 'dart:developer';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 
 class GeminiService {
-  final String apiKey = 'AIzaSyDi4cmH7JrRpkL_AHn3YF0ejjR0JfVKpwM';
+   String apiKey = '';
+
+  Future<void> getApiKey() async {
+    await dotenv.load(fileName: ".env");
+     apiKey = dotenv.env['API_KEY']!;
+  }
 
   Future<String> sendMessage(String message, List<Map<String, String>> conversationHistory) async {
-    if (apiKey.isEmpty || apiKey == 'YOUR_GEMINI_API_KEY_HERE') {
+    await getApiKey();
+    log('Api key: ${apiKey}');
+    if (apiKey.isEmpty || apiKey == '') {
       throw Exception('Please add your Gemini API key in gemini_service.dart');
     }
 
     try {
       List<Map<String, dynamic>> contents = [];
 
-      // Add conversation history
+
       for (var msg in conversationHistory) {
         contents.add({
           'role': msg['role'] == 'user' ? 'user' : 'model',
